@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 40px 150px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container .list {
+  flex: 2;
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-container .list li:first-child {
+  font-weight: 1000;
+}
+
+.navbar-container .list li:first-child::after {
+  content: "";
+  height: 2.5px;
+  width: 50px;
+  background-color: #000;
+  position: absolute;
+  top: 12%;
+  left: 35.5%;
+}
+
+.navbar-container .button-group {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.button-group .nav-buttom {
+  font-size: 18px;
+  width: 140px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+[aria-label="banner"] {
+  position: relative;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.square {
+  position: absolute;
+  top: 270px;
+  left: 130px;
+}
+
+.star {
+  position: absolute;
+  top: 90px;
+  right: 30px;
+}
+
+.square img {
+  height: 310px;
+  width: 300px;
+  margin-right: 5px;
+}
+
+.star img {
+  height: 50px;
+  width: 50px;
+}
+
+.person {
+  position: absolute;
+  margin-left: 0;
+  top: 80px;
+}
+
+.person img {
+  height: 450px;
+  width: 360px;
+}
+
+.globe {
+  position: absolute;
+  top: 40px;
+  right: 530px;
+}
+
+.globe img {
+  height: 55px;
+}
+
+.hero-container-right {
+  position: absolute;
+  top: 150px;
+  left: 450px;
+}
+
+.hero-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  margin-left: 35px;
+}
+
+.hero-description {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 8px;
+  padding: 45px;
+  margin-right: 60px;
+  margin-left: 80px;
+}
+
+.button-email {
+  margin-left: 240px;
+  margin-top: 30px;
+  padding: 2px 6px;
+  width: 180px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.button-join {
+  margin-left: 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  width: 100px;
+  padding: 1px;
+}
+
+.contact-heading {
+  margin-top: 80px;
+  margin-left: 360px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.icons {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.icons img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
