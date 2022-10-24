@@ -7,25 +7,29 @@
 
 # **Street Style Landibg Page**
 
-By Subrata
+>By Subrata
 
-Here's the Live Deployed Website : [here](https://www.youtube.com/ )
+-----
+#### Live Deployed Website : [here](https://streets-landingpage.netlify.app/)
 
-
-## What I learned from this Project?
+---
+### What I learned from this Project?
 
 - This project was a very good learning experience for me.
-- I learned how to use HTML and CSS to create a beutiful website.
-- I learned about the ways of positioning elements in the HTML and CSS.
-- I learned about z indexing to stack elements on top of each other.
+- I learned how to use css position(Relative & Absolute) property.
+- I learned about z-index and staking elements top of each outher
+- I learned about adding image through CSS .
 
-
-#### How the website looks like
+---
+#### How the website looks ike
 ---
 
 ![](screen-short/Project1.png)
 
 ***
+
+
+
 
 
 
